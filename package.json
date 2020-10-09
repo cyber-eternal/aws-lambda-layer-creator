@@ -1,0 +1,14 @@
+{
+  "name": "lambda_layer_builder",
+  "version": "1.0.0",
+  "description": "Create layer for the Lambda function",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && mkdir -p nodejs && cp -r node_modules nodejs/ && zip -r layer_for_lambda_modifier.zip nodejs"
+  },
+  "author": "cyber-eternal",
+  "license": "ISC",
+  "dependencies": {
+
+  }
+}
